@@ -37,7 +37,7 @@ class Server:
 		print("server started")
 		#maximum incoming connections
 		self._server.listen(5)
-		print("server: %s:%i" % (self._HOST, self._PORT))
+		print("server: %s:%d" % (self._HOST, self._PORT))
 
 	def __del__(self):
 		print("closing Server")
